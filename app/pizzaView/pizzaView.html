@@ -1,0 +1,10 @@
+<li class="media" ng-repeat="pizza in dati.pizzas">
+    <div class="media-left">
+        <img class="media-object" src="../{{pizza.img_url}}" alt="{{pizza.img_alt}}">
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading"><strong>{{pizza.nome_pizza}}</strong></h4>
+        <p>{{pizza.nome_pizzeria}}</p>
+    </div>
+    <hr/>
+</li>
