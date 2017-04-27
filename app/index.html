@@ -17,6 +17,8 @@
   <script src="pizzaView/pizzaView.js"></script>
   <script src="components/pizze/pizza.js"></script>
   <script src="components/pizze/pizza-service.js"></script>
+  <script src="components/pizze/single-pizza-service.js"></script>
+  <script src="detailsView/detailsView.js"></script>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -32,14 +34,8 @@
   </div>
 </header>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-xs-12">
-      <ul class="media-list" ng-view>
+<div class="container-fluid" ng-view>
 
-      </ul>
-    </div>
-  </div>
 </div>
 
 

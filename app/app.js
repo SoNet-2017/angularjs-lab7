@@ -4,7 +4,8 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.pizzaView',
-    'myApp.pizza'
+    'myApp.pizza',
+    'myApp.detailsView'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
